@@ -100,7 +100,11 @@ body {
 .logo-container {
     position: absolute;
     top: 1vw;
-    left: 36.4vw;
+    left: 36.7vw;
+}
+
+.logo {
+    width: 8.2vw;
 }
 
 .header-data-container {
@@ -236,6 +240,8 @@ body {
     position: absolute;
     top: 0.5vw;
     right: -3.6vw;
+
+    width: 37.6vw;
 }
 
 .card-title {
@@ -341,6 +347,10 @@ body {
     width: 3.8vw;
 }
 
+.slider {
+    width: 100%;
+}
+
 .side-arrows {
     position: absolute;
 }
@@ -348,11 +358,15 @@ body {
 .arrow-left {
     top: 20.8vw;
     left: -2.2vw;
+
+    width: 2.1vw;
 }
 
 .arrow-right {
     top: 20.8vw;
     right: -2.2vw;
+
+    width: 2.1vw;
 }
 
 .green-fish {
@@ -360,6 +374,8 @@ body {
 
     top: 28.7vw;
     left: -5.2vw;
+
+    width: 17vw;
 }
 
 .gallery-content {
@@ -491,11 +507,17 @@ body {
     width: 3.8vw;
 }
 
+.slider {
+    width: 100%;
+}
+
 .arrow-left-journal {
     position: absolute;
 
     top: 28.1vw;
     left: -2.2vw;
+
+    width: 2.1vw;
 }
 
 .arrow-right-journal {
@@ -503,6 +525,8 @@ body {
 
     top: 28.1vw;
     right: -2.2vw;
+
+    width: 2.1vw;
 }
 
 .contact-content {
@@ -516,6 +540,10 @@ body {
     width: 55.6vw;
 }
 
+.map {
+    width: 100%;
+}
+
 .contact-data {
     margin-left: 6vw;
 }
@@ -526,6 +554,10 @@ body {
     font-size: 1.3vw;
     line-height: 130%;
     font-weight: bold;
+}
+
+.phone-number, .email, .address, .time {
+    font-size: 0.8vw;
 }
 
 .data-container {
@@ -687,7 +719,6 @@ body {
     padding-bottom: 1.6vw;
 }
 
-
 .footer-links-list {
     margin-bottom: 0.7vw;
     padding-left: 0px;
@@ -707,4 +738,17 @@ body {
 
 }
 
+.copyright {
+    width: 7.2vw;
+}
 
+@media (min-width: 100px) and (max-width: 1500px) {
+        .contact-map {
+            width: 49.6vw;
+    }
+
+        .contact-data {
+            margin-left: 2vw;
+    }
+
+}
