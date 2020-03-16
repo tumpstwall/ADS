@@ -48,7 +48,7 @@ body {
 }
 
 .header-container {
-    width: 1650px;
+    width: 86vw;
     margin-left: auto;
     margin-right: auto;
     
@@ -57,15 +57,15 @@ body {
 }
 
 .menu {
-    width: 1354px;
-    padding-top: 81px;
+    width: 70.5vw;
+    padding-top: 4.2vw;
 
     margin-left: auto;
     margin-right: auto;
 }
 
 .menu-list {
-    height: 90px;
+    height: 4.7vw;
 
     list-style: none;
     display: flex;
@@ -75,16 +75,16 @@ body {
 
 .menu-list-item {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .menu-list-item:nth-child(n+2) {
-    margin-left: 61px;
+    margin-left: 3.2vw;
 }
 
 .menu-list-item:nth-child(4) {
-    margin-left: 115px;
-    margin-right: 115px;
+    margin-left: 6vw;
+    margin-right: 6vw;
 
     align-self: flex-end;
 }
@@ -99,18 +99,18 @@ body {
 
 .logo-container {
     position: absolute;
-    top: 20px;
-    left: 719px;
+    top: 1vw;
+    left: 36.4vw;
 }
 
 .header-data-container {
-    margin-top: 245px;
+    margin-top: 12.8vw;
 
-    width: 745px;
+    width: 38.8vw;
 }
 
 .header-title {
-    font-size: 40px;
+    font-size: 2.1vw;
     line-height: 140%;
 
     text-transform: uppercase;
@@ -120,9 +120,9 @@ body {
 
 .header-text {
     display: block;
-    margin-top: 15px;
+    margin-top: 0.8vw;
     
-    font-size: 18px;
+    font-size: 0.9vw;
     line-height: 130%;
 
 }
@@ -133,31 +133,31 @@ body {
     border: 0px;
     padding: 0px;
 
-    font-size: 16px;
+    font-size: 0.8vw;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     color: #ffffff;
 }
 
 .header-button {
-    margin: 22px 0 310px;
+    margin: 1.1vw 0 16.1vw;
 }
 
 .feedback-button {
-    padding: 15px 26px;
+    padding: 0.7vw 1.4vw;
 
     background: #6E9F34;
     border-radius: 5px;
 }
 
 .button-text {
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 0.8vw;
+    line-height: 130%;
 }
 
 .social {
     position: absolute;
 
-    top: 485px;
+    top: 25.3vw;
     right: 0px;
 }
 
@@ -166,29 +166,29 @@ body {
 }
 
 .social-img {
-    width: 40px;
-    height: 40px;
+    width: 2.1vw;
+    height: 2.1vw;
 }
 
 .social-list-item:nth-child(n+2) {
-    margin-top: 29px;
+    margin-top: 1.5vw;
 }
 
 /*main-container*/
 .main-container {
-    width: 1650px;
+    width: 86vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .container-title {
-    margin: 96px 0px 32px;
+    margin: 5vw 0px 1.7vw;
     
     text-align: center;
     text-transform: uppercase;
 
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 2.1vw;
+    line-height: 130%;
     font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #ffffff;
@@ -199,12 +199,12 @@ body {
 }
 
 .card {
-    width: 1570px;
+    width: 82.8vw;
     box-sizing: border-box;
 
     margin-left: auto;
     margin-right: auto;
-    padding: 42px 84px 60px;
+    padding: 2.2vw 4.4vw 3.1vw;
 
     position: relative;
 }
@@ -234,19 +234,19 @@ body {
 
 .card-image {
     position: absolute;
-    top: 10px;
-    right: -70px;
+    top: 0.5vw;
+    right: -3.6vw;
 }
 
 .card-title {
-    font-size: 30px;
+    font-size: 1.6vw;
     line-height: 130%;
     text-transform: uppercase;
 }
 
 .card-description {
-    width: 835px;
-    font-size: 20px;
+    width: 43.5vw;
+    font-size: 1vw;
     line-height: 130%;
 
     position: relative;
@@ -263,12 +263,12 @@ body {
     flex-wrap: wrap;
     align-items: center;
 
-    margin-top: 15px;
+    margin-top: 0.8vw;
 }
 
 .data-count-container {
-    width: 94px;
-    height: 94px;
+    width: 4.9vw;
+    height: 4.9vw;
 
     border: 5px;
     border-style: solid;
@@ -279,7 +279,7 @@ body {
 }
 
 .data-count {
-    font-size: 25px;
+    font-size: 1.3vw;
 
     position: absolute;
     
@@ -302,16 +302,16 @@ body {
 }
 
 .data-count-description {
-    margin-left: 16px;
-    font-size: 20px;
+    margin-left: 0.8vw;
+    font-size: 1vw;
 }
 
 .card-buttons {
-    margin-top: 40px;
+    margin-top: 2.1vw;
 }
 
 .more-information {
-    padding: 15px 66px 15px 26px;
+    padding: 0.8vw 3.4vw 0.8vw 1.4vw;
 
     background: #000000;
     border: 1px;
@@ -323,22 +323,22 @@ body {
 }
 
 .service-button {
-    margin-left: 30px;
+    margin-left: 1.6vw;
 }
 
 .more-information-icon {
-    width: 17px;
-    height: 17px;
+    width: 0.9vw;
+    height: 0.9vw;
 
     position: absolute;
-    top: 16px;
-    right: 30px;
+    top: 0.8vw;
+    right: 1.6vw;
 }
 
 .service-card-slider {
-    margin:35px auto 216px;
+    margin:1.8vw auto 11.3vw;
 
-    width: 73px;
+    width: 3.8vw;
 }
 
 .side-arrows {
@@ -346,20 +346,20 @@ body {
 }
 
 .arrow-left {
-    top: 400px;
-    left: -43px;
+    top: 20.8vw;
+    left: -2.2vw;
 }
 
 .arrow-right {
-    top: 400px;
-    right: -43px;
+    top: 20.8vw;
+    right: -2.2vw;
 }
 
 .green-fish {
     position: absolute;
 
-    top: 550px;
-    left: -100px;
+    top: 28.7vw;
+    left: -5.2vw;
 }
 
 .gallery-content {
@@ -372,7 +372,11 @@ body {
 }
 
 .gallery-photos img:nth-child(n+2) {
-    margin-top: 39px;
+    margin-top: 2vw;
+}
+
+.gallery-photo {
+    width: 100%;
 }
 
 .gallery-description {
@@ -382,42 +386,42 @@ body {
 
 .gallery-text {
     margin-top: 0px;
-    margin-bottom: 18px;
-    width: 800px;
+    margin-bottom: 0.9vw;
+    width: 41.6vw;
 
-    font-size: 20px;
+    font-size: 1vw;
     line-height: 130%;
 }
 
 .gallery-button {
-    margin-bottom: 74px;
+    margin-bottom: 3.9vw;
 }
 
 .journal-container {
-    margin-top: 230px;
+    margin-top: 12vw;
     position: relative;
 }
 
 .blue-fish {
-    width: 563px;
+    width: 29.3vw;
     
     position: absolute;
 
-    top: -220px;
-    right: -65px;
+    top: -11.5vw;
+    right: -3.4vw;
 }
 
 .journal-description {
-    margin: 24px auto 40px;
-    width: 1567px;
+    margin: 1.3vw auto 2.1vw;
+    width: 81.6vw;
 }
 
 .journal-text-descriprion {
-    margin-bottom: 18px;
+    margin-bottom: 0.9vw;
 
-    width: 815px;
+    width: 42.4vw;
     
-    font-size: 20px;
+    font-size: 1vw;
     line-height: 130%;
 }
 
@@ -427,13 +431,13 @@ body {
 
 .article--container-title {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 1.3vw;
     line-height: 130%;
 }
 
 .article-card {
-    margin: 24px auto 36px;
-    width: 1567px;
+    margin: 1.3vw auto 1.9vw;
+    width: 81.6vw;
 
     background-image: url(../images/journal_1920.png);
 
@@ -458,9 +462,9 @@ body {
 }
 
 .article-card-content {
-    padding: 347px 981px 34px 52px;
+    padding: 18.1vw 51.1vw 1.8vw 2.7vw;
 
-    width: 534px;
+    width: 27.8vw;
     
     position: relative;
     z-index: 1;
@@ -470,62 +474,62 @@ body {
 .article-title {
     text-transform: uppercase;
 
-    font-size: 30px;
+    font-size: 1.6vw;
     line-height: 130%;
 }
 
 .article-description {
     text-transform: uppercase;
 
-    font-size: 20px;
+    font-size: 1vw;
     line-height: 130%;
 }
 
 .journal-article-slider {
-    margin:35px auto 216px;
+    margin:1.8vw auto 11.3vw;
 
-    width: 73px;
+    width: 3.8vw;
 }
 
 .arrow-left-journal {
     position: absolute;
 
-    top: 540px;
-    left: -43px;
+    top: 28.1vw;
+    left: -2.2vw;
 }
 
 .arrow-right-journal {
     position: absolute;
 
-    top: 540px;
-    right: -43px;
+    top: 28.1vw;
+    right: -2.2vw;
 }
 
 .contact-content {
-    margin: 60px auto 160px;
+    margin: 3.1vw auto 8.3vw;
 
     display: flex;
     flex-wrap: wrap;
 }
 
 .contact-map {
-    width: 1067px;
+    width: 55.6vw;
 }
 
 .contact-data {
-    margin-left: 115px;
+    margin-left: 6vw;
 }
 
 .contact-title {
-    margin-bottom: 8px;
+    margin-bottom: 0.4vw;
     
-    font-size: 25px;
+    font-size: 1.3vw;
     line-height: 130%;
     font-weight: bold;
 }
 
 .data-container {
-    margin-bottom: 29px;
+    margin-bottom: 1.5vw;
 }
 
 .data-container span {
@@ -536,15 +540,15 @@ body {
     display: flex;
     flex-wrap: wrap;
 
-    width: 120px;
+    width: 6.5vw;
     
     list-style: none;
     padding-left: 0px;
 }
 
 .contact-list-item:nth-child(n+2) {
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 0.8vw;
+    margin-bottom: 0.8vw;
 }
 
 .contact-list-item:nth-child(4) {
@@ -552,7 +556,7 @@ body {
 }
 
 .social-contact-img {
-    width: 30px;
+    width: 1.6vw;
 }
 
 .footer {
@@ -581,17 +585,17 @@ body {
 .footer-container {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 42px;
+    padding-top: 2.2vw;
 
-    width: 1650px;
+    width: 86vw;
     
     position: relative;
     z-index: 1;
 }
 
 .feedback-footer-container {
-    margin: 0px auto 48px;
-    width: 775px;
+    margin: 0px auto 2.5vw;
+    width: 40.4vw;
     
     position: relative;
 }
@@ -620,18 +624,18 @@ body {
     align-items: center;
     flex-direction: column;
 
-    padding-top: 57px;
-    width: 775px;
+    padding-top: 3vw;
+    width: 40.4vw;
 
     position: relative;
     z-index: 1;
 }
 
 .feedback-form input {
-    font-size: 20px;
+    font-size: 1vw;
     line-height: 130%;
 
-    padding-left: 25px;
+    padding-left: 1.3vw;
 
     box-sizing: border-box;
 }
@@ -643,22 +647,22 @@ body {
 }
 
 .user-name, .user-phone {
-    width: 485px;
-    height: 65px;
+    width: 25.3vw;
+    height: 3.4vw;
 }
 
 .user-msg {
-    width: 485px;
-    height: 225px;
+    width: 25.3vw;
+    height: 11.7vw;
 }
 
 .user-name, .user-phone, .user-msg, .form-data-text {
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
 }
 
 .form-data-text {
-    width: 307px;
-    font-size: 12px;
+    width: 16vw;
+    font-size: 0.6vw;
     line-height: 130%;
 }
 
@@ -671,7 +675,7 @@ body {
 }
 
 .footer-button {
-    margin-bottom: 65px;
+    margin-bottom: 3.4vw;
 }
 
 .footer-data-container {
@@ -680,12 +684,12 @@ body {
     justify-content: space-between;
     align-items: center;
 
-    padding-bottom: 30px;
+    padding-bottom: 1.6vw;
 }
 
 
 .footer-links-list {
-    margin-bottom: 14px;
+    margin-bottom: 0.7vw;
     padding-left: 0px;
 
     list-style: none;
@@ -693,11 +697,11 @@ body {
 }
 
 .links-items:nth-child(n+2) {
-    margin-top: 14px;
+    margin-top: 0.7vw;
 }
 
 .data-link {
-    font-size: 16px;
+    font-size: 0.8vw;
     line-height: 130%;
     color: #ffffff;
 
