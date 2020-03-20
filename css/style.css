@@ -456,6 +456,9 @@ body {
     width: 81.6vw;
 
     background-image: url(../images/journal_1920.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
     border: 1px;
     border-style: solid;
