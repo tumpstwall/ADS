@@ -388,11 +388,42 @@ body {
     width: 100%;
 }
 
-.side-arrows {
+/*.side-arrows {
     position: absolute;
+}*/
+
+.side-button {
+    position: absolute;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0px;
+    padding: 0px;
+    background-color: #000000;
 }
 
-.arrow-left {
+.left-arrow-button {
+    top: 25.8vw;
+    left: -2.2vw;
+
+    width: 2.2vw;
+    height: 2.2vw;
+
+    background-image: url(../images/ArrowLeft.png);
+
+}
+
+.right-arrow-button {
+    top: 25.8vw;
+    right: -2.2vw;
+
+    width: 2.2vw;
+    height: 2.2vw;
+
+    background-image: url(../images/ArrowRight.png);
+}
+
+/*.arrow-left {
     top: 20.8vw;
     left: -2.2vw;
 
@@ -405,6 +436,7 @@ body {
 
     width: 2.1vw;
 }
+*/
 
 .green-fish {
     position: absolute;
@@ -551,7 +583,27 @@ body {
     width: 100%;
 }
 
-.arrow-left-journal {
+.left-journal-button {
+    top: 34.1vw;
+    left: -2.2vw;
+
+    width: 2.2vw;
+    height: 2.2vw;
+
+    background-image: url(../images/ArrowLeft.png);
+}
+
+.right-journal-button {
+    top: 34.1vw;
+    right: -2.2vw;
+
+    width: 2.2vw;
+    height: 2.2vw;
+
+    background-image: url(../images/ArrowRight.png);
+}
+
+/*.arrow-left-journal {
     position: absolute;
 
     top: 28.1vw;
@@ -567,7 +619,7 @@ body {
     right: -2.2vw;
 
     width: 2.1vw;
-}
+}*/
 
 .contact-container {
     padding-bottom: 8.3vw;
