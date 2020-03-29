@@ -51,6 +51,8 @@ body {
     width: 86vw;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 4.2vw;
+    padding-bottom: 16.1vw;
     
     position: relative;
     z-index: 1;
@@ -58,7 +60,6 @@ body {
 
 .menu {
     width: 70.5vw;
-    padding-top: 4.2vw;
 
     margin-left: auto;
     margin-right: auto;
@@ -71,6 +72,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0px;
+    margin: 0px;
 }
 
 .menu-list-item {
@@ -82,19 +84,20 @@ body {
     margin-left: 3.2vw;
 }
 
-.menu-list-item:nth-child(4) {
+.menu-list-item:nth-child(5) {
+    margin-left: 0px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.about-studio {
     margin-left: 6vw;
     margin-right: 6vw;
 
     align-self: flex-end;
-}
-
-.menu-list-item:nth-child(5) {
-    margin-left: 0px;
-}
-.menu-link {
-    text-decoration: none;
-    color: #ffffff;
 }
 
 .logo-container {
@@ -116,6 +119,7 @@ body {
 .header-title {
     font-size: 2.1vw;
     line-height: 140%;
+    font-weight: normal;
 
     text-transform: uppercase;
 
@@ -125,6 +129,7 @@ body {
 .header-text {
     display: block;
     margin-top: 0.8vw;
+    margin-bottom: 0px;
     
     font-size: 0.9vw;
     line-height: 130%;
@@ -143,7 +148,7 @@ body {
 }
 
 .header-button {
-    margin: 1.1vw 0 16.1vw;
+    margin: 1.1vw 0 0 0;
 }
 
 .feedback-button {
@@ -167,6 +172,7 @@ body {
 
 .social-list {
     list-style: none;
+    padding: 0px;
 }
 
 .social-img {
@@ -185,8 +191,12 @@ body {
     margin-right: auto;
 }
 
+.main-container section {
+    padding-top: 5vw;
+}
+
 .container-title {
-    margin: 5vw 0px 1.7vw;
+    margin: 0px 0px 1.7vw 0px;
     
     text-align: center;
     text-transform: uppercase;
@@ -532,8 +542,12 @@ body {
     width: 2.1vw;
 }
 
+.contact-container {
+    padding-bottom: 8.3vw;
+}
+
 .contact-content {
-    margin: 3.1vw auto 8.3vw;
+    margin: 3.1vw auto 0px;
 
     display: flex;
     flex-wrap: wrap;
@@ -551,6 +565,13 @@ body {
     margin-left: 6vw;
 }
 
+.contact-data a {
+    text-decoration: none;
+    font-size: 0.8vw;
+    color: #ffffff;
+
+}
+
 .contact-title {
     margin-bottom: 0.4vw;
     
@@ -565,6 +586,10 @@ body {
 
 .data-container {
     margin-bottom: 1.5vw;
+}
+
+.phone-numbers a span:nth-child(1) {
+    margin-top: 0.3vw;
 }
 
 .data-container span {
@@ -621,6 +646,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-top: 2.2vw;
+    padding-bottom: 1.6vw;
 
     width: 86vw;
     
@@ -660,6 +686,7 @@ body {
     flex-direction: column;
 
     padding-top: 3vw;
+    padding-bottom: 3.4vw;
     width: 40.4vw;
 
     position: relative;
@@ -669,8 +696,20 @@ body {
 .feedback-form input {
     font-size: 1vw;
     line-height: 130%;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
 
     padding-left: 1.3vw;
+    padding-right: 1.3vw;
+
+    box-sizing: border-box;
+}
+
+.feedback-form textarea {
+    font-size: 1vw;
+    line-height: 130%;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+    padding: 0.5vw 1.3vw 0.5vw;
 
     box-sizing: border-box;
 }
@@ -679,6 +718,13 @@ body {
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.hint {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
 }
 
 .user-name, .user-phone {
@@ -709,21 +755,15 @@ body {
     color: #ffffff;
 }
 
-.footer-button {
-    margin-bottom: 3.4vw;
-}
-
 .footer-data-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-
-    padding-bottom: 1.6vw;
 }
 
 .footer-links-list {
-    margin-bottom: 0.7vw;
+    margin: 0px;
     padding-left: 0px;
 
     list-style: none;
@@ -742,6 +782,7 @@ body {
 }
 
 .copyright {
+    margin-top: 0.7vw;
     width: 7.2vw;
 }
 

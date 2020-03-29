@@ -20,7 +20,7 @@
                         <li class="menu-list-item">
                             <a class="menu-link" href="#">интернет-магазин</a>
                         </li>
-                        <li class="menu-list-item">
+                        <li class="menu-list-item about-studio">
                             <a class="menu-link" href="#">о студии</a>
                         </li>
                         <li class="menu-list-item">
@@ -40,9 +40,9 @@
                     </a>
                 </div>
                 <div class="header-data-container">
-                    <p class="header-title">
+                    <h1 class="header-title">
                         Аквариум – это прекрасное хобби и возможность создать удивительный мир у себя дома
-                    </p>
+                    </h1>
                     <p class="header-text">
                         Аквариумистика своими корнями уходит в столь далекое прошлое, что предстоит открыть еще много страниц в ее удивительной истории
                     </p>
@@ -81,9 +81,9 @@
                 <div class="service-card">
                     <div class="card">
                         <div class="card-container">
-                            <div class="card-title">
+                            <span class="card-title">
                                 Аквариумы на заказ
-                            </div>
+                            </span>
                             <p class="card-description">
                                 Студия «TerraLife» – это команда дизайнеров, экспертов в аквариумистике и террариумистике, 
                                 который имеют богатый опыт в создании самых разнообратных проектов: от самых маленьких до невообразимо огромных.
@@ -194,12 +194,12 @@
                         </h3>
                         <div class="article-card">
                             <div class="article-card-content">
-                                <div class="article-title">
+                                <span class="article-title">
                                     Типы аквариумных вивариумов
-                                </div>
+                                </span>
                                 <div class="article-description">
                                     Давайте поговорим о четырех основных типах аквариумного вивариума
-                                </div>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -224,12 +224,16 @@
                                 Телефон
                             </span>
                             <div class="phone-numbers">
-                                <span class="phone-number">
-                                    + 7 (495) 364-23-65
-                                </span>
-                                <span class="phone-number">
-                                    + 7 (985) 182-21-54
-                                </span>
+                                <a href="#" class="">
+                                    <span class="phone-number">
+                                        + 7 (495) 364-23-65
+                                    </span>
+                                </a>
+                                <a href="">
+                                    <span class="phone-number">
+                                        + 7 (985) 182-21-54
+                                    </span>
+                                </a>
                             </div>
                         </div>
                         <div class="email-container data-container">
@@ -237,9 +241,11 @@
                                 E-mail
                             </span>
                             <div class="mails">
-                                <span class="email">
-                                    terralife@gmail.com
-                                </span>
+                                <a href="">
+                                    <span class="email">
+                                        terralife@gmail.com
+                                    </span>
+                                </a>
                             </div>
                         </div>
                         <div class="address-container data-container">
@@ -307,9 +313,18 @@
                         <h2 class="feedback-form-title container-title">
                             У вас остались вопросы?
                         </h2>
-                        <input class="user-name" placeholder="Ваше имя" type="text" form="data">
-                        <input class="user-phone" placeholder="Ваш номер телефона" type="text" form="data">
-                        <input class="user-msg" placeholder="Ваше сообщение" type="text" form="data">
+                        <label class="field-group">
+                            <span class="hint">Ваше имя</span>
+                            <input class="user-name" placeholder="Ваше имя" type="text" form="data">
+                        </label>
+                        <label class="field-group" for="phone">
+                            <span class="hint">Ваш номер телефона</span>
+                            <input class="user-phone" placeholder="Ваш номер телефона" type="text" form="data" required>
+                        </label>
+                        <label class="field-group">
+                            <span class="hint">Ваше сообщение</span>
+                            <textarea class="user-msg" placeholder="Ваше сообщение" type="textarea" form="data"></textarea>
+                        </label>
                         <div class="form-data-text">
                             <p class="form-text">
                                 Нажимая кнопку “Заказать звонок”, вы соглашаетесь с 
