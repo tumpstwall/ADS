@@ -237,6 +237,8 @@ body {
 
 .service-container {
     position: relative;
+
+    padding-bottom: 11.3vw;
 }
 
 .card {
@@ -379,16 +381,39 @@ body {
 }
 
 .service-card-slider {
-    margin:1.8vw auto 11.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin:1.8vw auto 0vw;
 
     width: 3.8vw;
 }
 
-.slider {
-    width: 100%;
+.button-slider {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 0px;
+    padding: 0px;
+    background-color: #d6d6d6;
+
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
 }
 
-/*.side-arrows {
+.first-slider {
+    width: 1vw;
+    height: 1vw;
+    background-color: #6E9F34;
+}
+
+/*.slider {
+    width: 100%;
+}*/
+
+/*.side-arrows {    
     position: absolute;
 }*/
 
@@ -484,6 +509,7 @@ body {
 
 .journal-container {
     margin-top: 12vw;
+    padding-bottom: 11.3vw;
     position: relative;
 }
 
@@ -574,14 +600,19 @@ body {
 }
 
 .journal-article-slider {
-    margin:1.8vw auto 11.3vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    margin:1.8vw auto 0vw;
 
     width: 3.8vw;
 }
 
-.slider {
+/*.slider {
     width: 100%;
-}
+}*/
 
 .left-journal-button {
     top: 34.1vw;
