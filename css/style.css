@@ -875,8 +875,10 @@ body {
 }
 
 .user-msg {
-    width: 25.3vw;
-    height: 11.7vw;
+    min-width: 25.3vw;
+    max-width: 25.3vw;
+    min-height: 11.7vw;
+    max-height: 11.7vw;
 }
 
 .user-name, .user-phone, .user-msg, .form-data-text {
