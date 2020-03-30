@@ -66,7 +66,7 @@ body {
 }
 
 .menu-list {
-    height: 4.7vw;
+    height: 5.7vw;
 
     list-style: none;
     display: flex;
@@ -86,6 +86,13 @@ body {
 
 .menu-list-item:nth-child(5) {
     margin-left: 0px;
+}
+
+.menu-list .about-studio {
+    margin-left: 6vw;
+    margin-right: 6vw;
+
+    align-self: flex-end;
 }
 
 .menu-link {
@@ -367,6 +374,19 @@ body {
     position: relative;
 }
 
+.more-information::after {
+    content: "";
+    background-image: url(../images/NR.png);
+    background-repeat: no-repeat;
+    opacity: 1;
+
+    position: absolute;
+    top: 0.8vw;
+    right: 0;
+    bottom: 0;
+    left: 6.7vw;
+}
+
 .service-button {
     margin-left: 1.6vw;
 }
@@ -431,10 +451,13 @@ body {
     top: 25.8vw;
     left: -2.2vw;
 
-    width: 2.2vw;
-    height: 2.2vw;
+    width: 2.3vw;
+    height: 2.3vw;
 
-    background-image: url(../images/ArrowLeft.png);
+    background-image: url(../images/ArrowLeft.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
 }
 
@@ -442,10 +465,13 @@ body {
     top: 25.8vw;
     right: -2.2vw;
 
-    width: 2.2vw;
-    height: 2.2vw;
+    width: 2.3vw;
+    height: 2.3vw;
 
-    background-image: url(../images/ArrowRight.png);
+    background-image: url(../images/ArrowRight.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 /*.arrow-left {
@@ -621,17 +647,23 @@ body {
     width: 2.2vw;
     height: 2.2vw;
 
-    background-image: url(../images/ArrowLeft.png);
+    background-image: url(../images/ArrowLeft.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .right-journal-button {
     top: 34.1vw;
     right: -2.2vw;
 
-    width: 2.2vw;
-    height: 2.2vw;
+    width: 2.3vw;
+    height: 2.3vw;
 
-    background-image: url(../images/ArrowRight.png);
+    background-image: url(../images/ArrowRight.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 /*.arrow-left-journal {
