@@ -36,7 +36,11 @@
                 </nav>
                 <div class="logo-container">
                     <a class="studio-link" href="#">
-                        <img  class="logo" src="images/Logo.png" alt="Logo">
+                        <picture>
+                            <source class="logo" srcset="images/Logo.png" media="(min-width: 901px)">
+                            <source class="logo" srcset="images/Logo_320.svg" media="(max-width: 900px)">
+                            <img  class="logo" src="images/Logo.png" alt="Logo">
+                        </picture>
                     </a>
                 </div>
                 <div class="header-data-container">
@@ -173,13 +177,21 @@
                         </button>
                         <img class="gallery-photo" src="images/gallery_3_1920.png" alt="имитация песчанной дороги и дерева с большой кроной в аквариуме">
                     </div>
+                    <div class="service-card-slider">
+                        <button class="button-slider first-slider"></button>
+                        <button class="button-slider"></button>
+                        <button class="button-slider"></button>
+                        <!--<img class = "slider" src="images/points.png" alt="имитация слайдера">-->
+                    </div>
                 </div>
             </section>
             <section class="journal-container">
                 <h2 class="container-title">
                     журнал
                 </h2>
-                <img class="blue-fish" src="images/fish_2_1920.png" alt="одна голубая рыбка">
+                <div class="fish">
+                    <img class="blue-fish" src="images/fish_2_1920.png" alt="одна голубая рыбка">
+                </div>
                 <div class="journal-content">
                     <div class="journal-description">
                         <p class="journal-text-descriprion">
@@ -207,13 +219,13 @@
                                 </span>
                             </div>
                         </div>
+                        <div class="journal-article-slider">
+                            <button class="button-slider first-slider"></button>
+                            <button class="button-slider"></button>
+                            <button class="button-slider"></button>
+                            <!--<img class = "slider" src="images/points.png" alt="имитация слайдера">-->
+                        </div>
                     </div>
-                </div>
-                <div class="journal-article-slider">
-                    <button class="button-slider first-slider"></button>
-                    <button class="button-slider"></button>
-                    <button class="button-slider"></button>
-                    <!--<img class = "slider" src="images/points.png" alt="имитация слайдера">-->
                 </div>
                 <button class="side-button left-journal-button"></button>
                 <button class="side-button right-journal-button"></button>
@@ -350,7 +362,11 @@
                 <div class="footer-data-container">
                     <div class="footer-logo">
                         <a class="studio-link" href="#">
-                            <img class="logo" src="images/Logo.png" alt="Логотип студии">
+                            <picture>
+                                <source class="logo" srcset="images/Logo.png" media="(min-width: 901px)">
+                                <source class="logo" srcset="images/Logo_320.svg" media="(max-width: 900px)">
+                                <img  class="logo" src="images/Logo.png" alt="Logo">
+                            </picture>
                         </a>
                     </div>
                     <div class="footer-data">
