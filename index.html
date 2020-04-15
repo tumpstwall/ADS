@@ -9,6 +9,9 @@
     <body>
         <header class="header">
             <div class="header-container">
+                <div class="small-menu">
+                    <button class="menu-button" type="menu"></button>
+                </div>
                 <nav class="menu">
                     <ul class="menu-list">
                         <li class="menu-list-item">
@@ -189,7 +192,13 @@
                 <h2 class="container-title">
                     журнал
                 </h2>
-                <img class="blue-fish" src="images/fish_2_1920.png" alt="одна голубая рыбка">
+                <div class="fish-block blue-fish">
+                    <picture>
+                        <source class="logo" srcset="images/fish_2_1920.png" media="(min-width: 901px)">
+                        <source class="logo" srcset="images/fish_2_320.png" media="(max-width: 900px)">
+                        <img class="blue-fish" src="images/fish_2_1920.png" alt="одна голубая рыбка">
+                    </picture>
+                </div>
                 <div class="journal-content">
                     <div class="journal-description">
                         <p class="journal-text-descriprion">
@@ -290,34 +299,40 @@
                         </div>
                         <div class="social-links data-container">
                             <ul class="contact-list">
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-instagram-img social-contact-img">
+                                    <span class="hint">Instagram</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/Instagram.png" alt="Instagram">
+                                    <!--<img class="social-contact-img" src="images/Instagram.png" alt="Instagram">-->
                                     </a>
                                 </li>
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-facebook-img social-contact-img">
+                                    <span class="hint">Facebook</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/Facebook.png" alt="Facebook">
+                                    <!--<img class="social-contact-img" src="images/Facebook.png" alt="Facebook">-->
                                     </a>
                                 </li>
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-youtube-img social-contact-img">
+                                    <span class="hint">YouTube</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/YouTube1.png" alt="YouTube">
+                                    <!--<img class="social-contact-img" src="images/YouTube1.png" alt="YouTube">-->
                                     </a>
                                 </li>
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-mail-img social-contact-img">
+                                    <span class="hint">Mail</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/Mail.png" alt="Почта">
+                                    <!--<img class="social-contact-img" src="images/Mail.png" alt="Почта">-->
                                     </a>
                                 </li>
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-skype-img social-contact-img">
+                                    <span class="hint">Skype</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/Skype.png" alt="Skype">
+                                    <!--<img class="social-contact-img" src="images/Skype.png" alt="Skype">-->
                                     </a>
                                 </li>
-                                <li class="contact-list-item">
+                                <li class="contact-list-item cont-whatsapp-img social-contact-img">
+                                    <span class="hint">WhatsApp</span>
                                     <a class="social-link" href="#">
-                                        <img class="social-contact-img" src="images/WhatsApp.png" alt="WhatsApp">
+                                    <!--<img class="social-contact-img" src="images/WhatsApp.png" alt="WhatsApp">-->
                                     </a>
                                 </li>
                             </ul>

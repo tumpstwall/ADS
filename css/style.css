@@ -38,7 +38,7 @@ body {
 .header::after {
     content: "";
     background-color: #000000;
-    opacity: 0.6;
+    opacity: 0.8;
 
     position: absolute;
     top: 0;
@@ -56,6 +56,10 @@ body {
     
     position: relative;
     z-index: 1;
+}
+
+.small-menu {
+    display: none;
 }
 
 .menu {
@@ -99,6 +103,11 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
+
+.menu-link:hover {
+    color: #6E9F34;
+}
+
 
 .about-studio {
     margin-left: 6vw;
@@ -159,10 +168,14 @@ body {
 }
 
 .feedback-button {
-    padding: 0.7vw 1.4vw;
+    padding: 0.9vw 1.4vw;
 
     background: #6E9F34;
     border-radius: 5px;
+}
+
+.feedback-button:hover {
+    background: #179121;
 }
 
 .button-text {
@@ -207,6 +220,18 @@ body {
     background-size: cover;
     width: 2.1vw;
     height: 2.1vw;
+}
+
+.instagram-img:hover {
+    background-image: url(../images/Instagram_green.png);
+}
+
+.facebook-img:hover {
+    background-image: url(../images/Facebook_green.png);
+}
+
+.youtube-img:hover {
+    background-image: url(../images/YouTube1_green.png);
 }
 
 /*.social-img {
@@ -374,6 +399,11 @@ body {
     position: relative;
 }
 
+.more-information:hover {
+    border-color: #179121;
+    background: #179121;
+}
+
 .more-information::after {
     content: "";
     background-image: url(../images/NR.png);
@@ -423,6 +453,10 @@ body {
     border-radius: 50%;
 }
 
+.button-slider:hover {
+    background-color: #179121;
+}
+
 .first-slider {
     width: 1vw;
     height: 1vw;
@@ -461,6 +495,10 @@ body {
 
 }
 
+.left-arrow-button:hover {
+    background-image: url(../images/ArrowheadLeft-WF_green.png);
+}
+
 .right-arrow-button {
     top: 25.8vw;
     right: -2.2vw;
@@ -472,6 +510,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.right-arrow-button:hover {
+    background-image: url(../images/ArrowHeadRight-WF_green.png);
 }
 
 /*.arrow-left {
@@ -501,6 +543,9 @@ body {
 .gallery-content {
     display: flex;
     flex-wrap: wrap;
+
+    position: relative;
+    z-index: 1;
 }
 
 .gallery-photos {
@@ -545,7 +590,7 @@ body {
     position: absolute;
 
     top: -11.5vw;
-    right: -3.4vw;
+    right: -2.4vw;
 }
 
 .journal-description {
@@ -653,6 +698,10 @@ body {
     background-size: cover;
 }
 
+.left-journal-button:hover {
+    background-image: url(../images/ArrowheadLeft-WF_green.png);
+}
+
 .right-journal-button {
     top: 34.1vw;
     right: -2.2vw;
@@ -664,6 +713,10 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+}
+
+.right-journal-button:hover {
+    background-image: url(../images/ArrowHeadRight-WF_green.png);
 }
 
 /*.arrow-left-journal {
@@ -726,6 +779,10 @@ body {
     font-size: 0.8vw;
 }
 
+.phone-number:hover, .email:hover {
+    color: #6E9F34;
+}
+
 .data-container {
     margin-bottom: 1.5vw;
 }
@@ -759,6 +816,74 @@ body {
 
 .social-contact-img {
     width: 1.6vw;
+    height: 1.6vw;
+}
+
+.cont-instagram-img {
+    background-image: url(../images/Instagram.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-instagram-img:hover {
+    background-image: url(../images/Instagram_green.png);
+}
+
+.cont-facebook-img {
+    background-image: url(../images/Facebook.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-facebook-img:hover {
+    background-image: url(../images/Facebook_green.png);
+}
+
+.cont-youtube-img {
+    background-image: url(../images/YouTube1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-youtube-img:hover {
+    background-image: url(../images/YouTube1_green.png);
+}
+
+.cont-mail-img {
+    background-image: url(../images/Mail.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-mail-img:hover {
+    background-image: url(../images/Mail_green.png);
+}
+
+.cont-skype-img {
+    background-image: url(../images/Skype.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-skype-img:hover {
+    background-image: url(../images/Skype_green.png);
+}
+
+
+.cont-whatsapp-img {
+    background-image: url(../images/WhatsApp.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.cont-whatsapp-img:hover {
+    background-image: url(../images/WhatsApp_green.png);
 }
 
 .footer {
@@ -899,6 +1024,10 @@ body {
     color: #ffffff;
 }
 
+.link-in-text:hover {
+    color: #6E9F34;
+}
+
 .footer-data-container {
     display: flex;
     flex-wrap: wrap;
@@ -925,6 +1054,10 @@ body {
 
 }
 
+.data-link:hover {
+    color: #6E9F34;
+}
+
 .copyright {
     margin-top: 0.7vw;
     width: 7.2vw;
@@ -946,6 +1079,10 @@ body {
         background-image: url(../images/header_bg_320.png);
         position: relative;
     }
+
+    .header::after {
+        opacity: 0.6;
+    }
     
     .header-container {
         width: 88.4vw;
@@ -954,6 +1091,47 @@ body {
         
         position: relative;
         z-index: 1;
+    }
+
+    .small-menu {
+        display: block;
+        position: absolute;
+        top: 6.9vw;
+        right: 0;
+
+        width: 10.35vw;
+        height: 8.75vw;
+    }
+
+    .menu-button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        border: 0px;
+        padding: 0px;
+        
+        width: 10.35vw;
+        height: 8.75vw;
+
+        background-color: #000000;
+        opacity: 1;
+    } 
+
+    .menu-button::after {
+        content: "";
+
+        background-image: url(../images/menu_320.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        width: 10.35vw;
+        height: 8.75vw;
+        
     }
     
     .menu {
@@ -1286,16 +1464,21 @@ body {
         padding-bottom: 0vw;
         position: relative;
     }
+
+    .journal-container h2 {
+        position: relative;
+        z-index: 1;
+    }
     
     .blue-fish {
         display: block;
         
-        width: 56.3vw;
+        width: 42.3vw;
         
         position: absolute;
     
-        top: -23.5vw;
-        right: -25.4vw;
+        top: -18.5vw;
+        right: -2.8vw;
     }
     
     .journal-description {
@@ -1491,6 +1674,7 @@ body {
     
     .social-contact-img {
         width: 4.4vw;
+        height: 4.4vw;
     }
     
     .footer {
